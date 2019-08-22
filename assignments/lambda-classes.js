@@ -88,6 +88,34 @@ const mark = new Student({
   favSubjects: ['HTML', 'CSS', 'JS']
 });
 
+const mark = new Student({
+  name: 'Kelly',
+  location: 'Seaside',
+  age: 28,
+  previousBackground: 'Cheerleader',
+  className: 'Web23',
+  favSubjects: ['HTML', 'CSS', 'Python', 'React']
+});
+
+const mark = new Student({
+  name: 'Elliot',
+  location: 'New York City',
+  age: 28,
+  previousBackground: 'Cybersecurity',
+  className: 'Web23',
+  favSubjects: [
+    'Prolog',
+    'Python',
+    'Lisp',
+    'HTML',
+    'CSS',
+    'SQL',
+    'Ruby',
+    'JavaScript'
+  ]
+});
+
 console.log(mark.listsSubjects());
 console.log(zack.standUp('Web23', 'CSS'));
 console.log(belding.grade('Mark', 'JavaScript'));
+console.log(elliot.sprintChallenge('Ruby'));
