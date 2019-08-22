@@ -88,7 +88,7 @@ const mark = new Student({
   favSubjects: ['HTML', 'CSS', 'JS']
 });
 
-const mark = new Student({
+const kelly = new Student({
   name: 'Kelly',
   location: 'Seaside',
   age: 28,
@@ -97,7 +97,7 @@ const mark = new Student({
   favSubjects: ['HTML', 'CSS', 'Python', 'React']
 });
 
-const mark = new Student({
+const elliot = new Student({
   name: 'Elliot',
   location: 'New York City',
   age: 28,
@@ -116,6 +116,9 @@ const mark = new Student({
 });
 
 console.log(mark.listsSubjects());
-console.log(zack.standUp('Web23', 'CSS'));
-console.log(belding.grade('Mark', 'JavaScript'));
+console.log(kelly.PRAssignment('JavaScript'));
 console.log(elliot.sprintChallenge('Ruby'));
+console.log(zack.standUp('Web23', 'CSS'));
+console.log(zack.debugsCode("Elliot's", 'CSS'));
+console.log(belding.grade('Mark', 'JavaScript'));
+console.log(belding.demo('JavaScript'));
